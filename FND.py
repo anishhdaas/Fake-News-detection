@@ -27,8 +27,8 @@ def clean_text(text):
     return text
 
 # 🗂️ Load data
-df_fake = pd.read_csv("/Users/swastikanaskar/Desktop/Fake.csv")
-df_real = pd.read_csv("/Users/swastikanaskar/Desktop/True.csv")
+df_fake = pd.read_csv("/Users/ishaan/Python/Fake News Detection/Fake.csv")
+df_real = pd.read_csv("/Users/ishaan/Python/Fake News Detection/True.csv")
 df_fake["label"] = 0
 df_real["label"] = 1
 
